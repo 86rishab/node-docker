@@ -14,3 +14,7 @@ npm install body-parser
 To run the project
 -----------------------
 node server.js
+
+Dockerizing node app
+--------------------
+https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
