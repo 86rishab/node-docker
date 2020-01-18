@@ -1,0 +1,16 @@
+{
+  "name": "api-hsbc",
+  "version": "1.0.0",
+  "description": "proxy API for testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishab Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0"
+  }
+}
