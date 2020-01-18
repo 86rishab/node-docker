@@ -1,5 +1,5 @@
 {
-  "name": "api-hsbc",
+  "name": "api-test",
   "version": "1.0.0",
   "description": "proxy API for testing",
   "main": "server.js",
