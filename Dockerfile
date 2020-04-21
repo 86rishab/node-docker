@@ -11,9 +11,14 @@ COPY package*.json ./
 RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
-
+#Install PM2 server
+RUN npm install pm2 -g
 # Bundle app source
 COPY server.js ./
 
 EXPOSE 9191
-CMD [ "node", "server.js" ]
+#Running application on Node server
+#CMD [ "node", "server.js" ]
+
+#Running application on Pm2 server
+CMD ["pm2-runtime", "app.js"]
