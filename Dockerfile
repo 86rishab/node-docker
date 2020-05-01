@@ -21,4 +21,4 @@ EXPOSE 9191
 #CMD [ "node", "server.js" ]
 
 #Running application on Pm2 server
-CMD ["pm2-runtime", "Server.js"]
+CMD ["pm2-runtime", "server.js"]
